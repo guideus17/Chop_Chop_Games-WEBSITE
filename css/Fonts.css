@@ -1,0 +1,19 @@
+@font-face {
+  font-family: liberation;
+  src: url(../assets/fonts/LiberationSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: liberationbold;
+  src: url(../assets/fonts/LiberationSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: bell;
+  src: url(../assets/fonts/BellMT.ttf);
+}
+
+@font-face {
+  font-family: bellbold;
+  src: url(../assets/fonts/BellMTBold.ttf);
+}
