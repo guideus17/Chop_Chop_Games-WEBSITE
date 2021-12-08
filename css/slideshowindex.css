@@ -99,5 +99,6 @@
 .characterPic {
     height: 41vw;
     margin-top: -12vw;
+    pointer-events: none;
 }
 

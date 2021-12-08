@@ -109,6 +109,7 @@ nav img {
 
 
 
+
 svg {
     height: 80px;
     position: absolute;
@@ -143,7 +144,7 @@ svg {
   }
   .line {
     fill: none;
-    stroke: #4B4B4B;
+    stroke: #8B8B8B;
     stroke-width: 6px;
     stroke-linecap: round;
     stroke-linejoin: round;
