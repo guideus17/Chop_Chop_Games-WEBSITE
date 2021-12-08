@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+}
+
+#WebsiteWrap {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+
+
+/* -----------------------------------------------------VIDEO BACKGROUND SECTION------------------------------------------------------ */
+
+#BackgroundVideo {
+  width: 100vw;
+  min-width: 1700px;
+}
+
+#VideoWraper {
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------LOGO OPENING SECTION------------------------------------------------------ */
+
+#MenuHome {
+  background-color: rgba(255, 255, 255, 0.548);
+}
+
+#logoSection {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  pointer-events: none;
+}
+
+#logoSection img {
+  width: 40vw;
+  min-width: 700px;
+position: absolute;
+bottom: 5vw;
+left: 5vw;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------TRAILER SECTION------------------------------------------------------ */
+
+#TrailerSection {
+  display: grid;
+  grid-template-columns: 37vw 1fr;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  height: 22vw;
+  margin-top: 100px;
+}
+
+
+#trailer {
+  position: relative;
+}
+
+#trailer img {
+  margin-top: -1.7vw;
+  margin-left: -1.8vw;
+  width: 40vw;
+  height: 25vw;
+  pointer-events: none;
+}
+
+iframe {
+  width: 37vw;
+  height: 22vw;
+}
+
+#videoframe {
+position: absolute;
+}
+
+#gameinfo {
+  margin-left: 3vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+h1 {
+  font-family: bellbold;
+  font-weight: normal;
+  font-size: 3vw;
+}
+
+#gameinfo p {
+  margin-top: 20px;
+  font-family: liberation;
+  font-size: 1vw;
+}
+
+
+#devider {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+height: 0.2vw;
+background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 49%, rgba(255,255,255,0) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------NEWSLETTER SECTION----------------------------------------------------- */
+
+#signupSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ text-align: center;
+}
+
+#signupSection p {
+  font-family: bellbold;
+  font-weight: normal;
+  font-size: 2vw;
+  color: white;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.349);
+    outline: none;
+    border: none;
+    height: 2vw;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+::placeholder{
+  font-family: liberation;
+  color: white;
+  font-size: 25px;
+  opacity: 50%;
+}
