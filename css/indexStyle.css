@@ -2,8 +2,8 @@
   margin: 0;
 }
 
-#WebsiteWrap {
-  position: absolute;
+#main {
+  position: relative;
   width: 100%;
 }
 
@@ -16,12 +16,14 @@
 
 #BackgroundVideo {
   width: 100vw;
-  min-width: 1700px;
+  min-width: 1800px;
 }
 
 #VideoWraper {
   width: 100%;
+  display: fixed;
   position: absolute;
+  top: 0;
   z-index: -10;
 overflow: hidden;
 }
@@ -163,19 +165,169 @@ background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 4
   margin-bottom: 10px;
 }
 
-input {
+#inputWraper {
   width: 30vw;
   background-color: rgba(255, 255, 255, 0.349);
+    height: 2vw;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+
+
+}
+
+input {
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0);
     outline: none;
     border: none;
     height: 2vw;
-    padding-top: 5px;
-    font-size: 25px;
+    font-size: 1.5vw;
+    color:white;
 }
+
+
+
 
 ::placeholder{
   font-family: liberation;
   color: white;
-  font-size: 25px;
+  font-size: 1.5vw;
   opacity: 50%;
+}
+
+
+#buttonsignup {
+  margin-right: -1vw;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 0.5vw;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100px;
+}
+
+#buttonsignup:hover > #arrow {
+  transform: scale(0.9)
+}
+
+
+
+#buttonsignup img {
+  margin-left: 0.5vw;
+  height: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------CLASSES SECTION----------------------------------------------------- */
+
+#ClassesSection {
+  margin-top: 80px;
+  position: relative;
+}
+
+#slide {
+  width: 100%;
+  position: absolute;
+}
+
+
+#backgroundClasswraper {
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+overflow: hidden;
+}
+
+
+#backgroundClass {
+  width: 100vw;
+  min-width: 1800px;
+  height: 29vw;
+  background-image: url("../assets/index/backgoundclasses.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------FOOTER----------------------------------------------------- */
+
+footer {
+  margin-top: 28vw;
+  padding-top: 1vw;
+  background-color: #F96C35 ;
+  position: absolute;
+  width: 100%;
+  height: 15vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  box-sizing: border-box;
+color: white;
+}
+
+#footerSocialMedia {
+  margin-top: 3vw;
+  font-family: liberationbold;
+  font-size: 1.2vw;
+}
+
+#footerSocialMedia img {
+  margin-top: 0.5vw;
+  height: 1.2vw;
+  margin-right: 0.5vw;
+}
+
+#footerCompany {
+  text-align: center;
+  font-family: liberation;
+  font-size: 0.8vw;
+}
+#footerCompany img {
+height: 3vw;
+margin-bottom: 0.5vw;
+}
+
+#footerMenu {
+  margin-top: 3vw;
+  font-family: liberationbold;
+  text-align: right;
+  font-size: 1.2vw;
+}
+
+#footerMenu p {
+  margin-bottom: 0.5vw;
 }
