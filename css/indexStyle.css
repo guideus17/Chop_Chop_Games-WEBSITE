@@ -32,15 +32,32 @@ overflow: hidden;
 
 
 
+/* -----------------------------------------------------MENU SECTION------------------------------------------------------ */
+
+#MenuHome {
+  background-color: #40C552;
+}
+
+#MenuHome p {
+  color: white;
+}
+
+#MenuCards p {
+  color: #0080AA;
+}
+
+#MenuDevlog p {
+  color: #AE5CC5;
+}
+
+#MenuFAQ p {
+  color: #CE8E1E;
+}
 
 
 
 
 /* -----------------------------------------------------LOGO OPENING SECTION------------------------------------------------------ */
-
-#MenuHome {
-  background-color: #40C552;
-}
 
 #logoSection {
   width: 100%;
@@ -57,9 +74,9 @@ bottom: 5vw;
 left: 5vw;
 }
 
-#selected {
-  color: white;
-}
+
+
+
 
 
 
