@@ -9,6 +9,7 @@ fetch(url)
         return response.json();
     })
 
+
     .then((data) => {
 
         handData(data);
@@ -31,26 +32,99 @@ function handData(data) {
 
 function showcard(card) {
 
-
-
     // // grab template and cloone it
     const templateSelection = document.querySelector(".templateCard").content;
     const cloneOfTemplate = templateSelection.cloneNode(true);
 
 
     // change content
-
     cloneOfTemplate.querySelector(".CardImage").src = card._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
-
-
-
 
 
     // put clone in the place
     const GridWithsongs = document.querySelector("#CardsSection");
     GridWithsongs.appendChild(cloneOfTemplate);
-
-
-
-
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------------------filter class---------------------------------
+document.querySelector("#ButtonSearch").addEventListener("click", runclassSelector)
+
+
+function runclassSelector() {
+    var ClassSelected = document.getElementById("ClassSelector").value;
+
+
+
+
+
+   if (ClassSelected == "Swordsman") {
+
+
+    console.log("Swordsman FILTER");
+
+
+  } else if (ClassSelected == "Rogue") {
+
+    
+
+    console.log("ROGUE FILTER");
+
+
+  } else if (ClassSelected == "Wizard") {
+
+
+    console.log("Wizard FILTER");
+
+
+  }
+  else if (ClassSelected == "Shaman") {
+
+
+    console.log("Shaman FILTER");
+
+
+  }
+  else if (ClassSelected == "Warlock") {
+
+
+    console.log("Warlock FILTER");
+
+
+  }
+  else if (ClassSelected == "Cleric") {
+
+
+    console.log("Cleric FILTER");
+
+
+  }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
