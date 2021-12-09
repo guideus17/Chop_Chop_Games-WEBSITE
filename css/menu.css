@@ -76,35 +76,7 @@ nav a {
     user-select: none; 
     box-shadow: 4px 4px 4px #00000017;
     z-index: 20;
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -230,3 +202,61 @@ svg {
     transition: transform 400ms 250ms;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* -----------------------------------------MOBILE VIEW-------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+  #HamburguerSymbol {
+    right: -195px;  
+    transform: scale(0.6);
+}
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: fixed;
+  right: -60px;
+  top: 20px;
+  z-index: 20;
+  transform: scale(0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+}

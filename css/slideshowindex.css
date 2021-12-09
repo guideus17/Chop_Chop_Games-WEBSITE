@@ -17,6 +17,7 @@
   margin-top: -30px;
   transition: 0.2s ease;
   user-select: none;
+  height: 5vw;
 }
 
 /* Position the "next button" to the right */
@@ -102,3 +103,72 @@
     pointer-events: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------MOBILE VIEW-------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+
+
+
+
+
+  .CharacterInfo div {
+    margin-top: 0vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.characterCards {
+    display: none;
+}
+
+.CharacterInfo h2 {
+    font-family: bellbold;
+  font-weight: normal;
+  font-size: 4vw;
+  color: #4B4B4B;
+}
+
+.CharacterInfo p {
+    margin-top: 1vw;
+    font-family: liberation;
+    font-size: 2vw;
+  color: #4B4B4B;
+}
+
+
+.prev, .next {
+  
+  margin-top: -8vw;
+ 
+  height: 8vw;
+}
+
+
+
+}
