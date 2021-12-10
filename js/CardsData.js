@@ -78,21 +78,21 @@ document.querySelector("#Cleric").setAttribute("href","cardslibrary.html?class=C
 
 
 if (ClassSelector == "Swordsman") {
-    document.querySelector("#Swordsmanimg").src = "../assets/CardsLibrary/Classes/swordsmanselected.png";
+    document.querySelector("#Swordsmanimg").src = "assets/CardsLibrary/Classes/swordsmanselected.png";
   } else if (ClassSelector == "Rogue") {
-    document.querySelector("#Rogueimg").src = "../assets/CardsLibrary/Classes/rogueselected.png";
+    document.querySelector("#Rogueimg").src = "assets/CardsLibrary/Classes/rogueselected.png";
   } 
   else if (ClassSelector == "Wizard") {
-    document.querySelector("#Wizardimg").src = "../assets/CardsLibrary/Classes/wizardselected.png";
+    document.querySelector("#Wizardimg").src = "assets/CardsLibrary/Classes/wizardselected.png";
   } 
   else if (ClassSelector == "Shaman") {
-    document.querySelector("#Shamanimg").src = "../assets/CardsLibrary/Classes/shamanselected.png";
+    document.querySelector("#Shamanimg").src = "assets/CardsLibrary/Classes/shamanselected.png";
   } 
   else if (ClassSelector == "Warlock") {
-    document.querySelector("#Warlockimg").src = "../assets/CardsLibrary/Classes/warlockselected.png";
+    document.querySelector("#Warlockimg").src = "assets/CardsLibrary/Classes/warlockselected.png";
   } 
   else if (ClassSelector == "Cleric") {
-    document.querySelector("#Clericimg").src = "../assets/CardsLibrary/Classes/clericselected.png";
+    document.querySelector("#Clericimg").src = "assets/CardsLibrary/Classes/clericselected.png";
   } 
 
 
