@@ -57,6 +57,11 @@ body {
   width: 3vw;
 }
 
+#classesmenu img:hover {
+  transition: 0.1s;
+  transform: scale(1.1)
+}
+
 
 #classesmenu a {
  margin-left: 0.7vw;

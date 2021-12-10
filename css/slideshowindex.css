@@ -31,6 +31,10 @@
     transform: scale(0.8)
 }
 
+.prev:active, .next:active {
+  transform: scale(0.6)
+}
+
 
 /* Fading animation */
 .fade {
@@ -166,7 +170,6 @@
 .prev, .next {
   
   margin-top: -8vw;
- 
   height: 8vw;
 }
 
