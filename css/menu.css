@@ -3,9 +3,10 @@ nav {
     flex-direction: column;
     width: 300px;
     position: fixed;
-    right: 0;
+    right: -300px;
     top: 100px;
     z-index: 20;
+    transition: 0.2s;
 }
 
 nav div {
@@ -26,7 +27,9 @@ nav div {
 }
 
 
-
+.Shownav {
+  right: 0px;
+}
 
 .ShowMenu {
     right: -120px;
@@ -243,13 +246,17 @@ nav {
   flex-direction: column;
   width: 300px;
   position: fixed;
-  right: -60px;
+  right: -300px;
   top: 20px;
   z-index: 20;
   transform: scale(0.6);
 }
 
 
+
+.Shownav {
+  right: -65px;
+}
 
 
 

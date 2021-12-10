@@ -44,28 +44,38 @@ function showcard(card) {
     const cloneOfTemplate = templateSelection.cloneNode(true);
 
 
+
+
     // change content
-    cloneOfTemplate.querySelector(".CardImage").src = card._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
+
+    cloneOfTemplate.querySelector(".level1").src = card.level_1.guid;
+    cloneOfTemplate.querySelector(".level2").src = card.level_2.guid;
+    cloneOfTemplate.querySelector(".level3").src = card.level_3.guid;
+
+    // cloneOfTemplate.querySelector(".CardImage").src = card._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
 
 
-
- // class filter
-    document.querySelector("#Swordsman").setAttribute("href","cardslibrary.html?class=Swordsman");
-    document.querySelector("#Rogue").setAttribute("href","cardslibrary.html?class=Rogue");
-    document.querySelector("#Wizard").setAttribute("href","cardslibrary.html?class=Wizard");
-    document.querySelector("#Shaman").setAttribute("href","cardslibrary.html?class=Shaman");
-    document.querySelector("#Warlock").setAttribute("href","cardslibrary.html?class=Warlock");
-    document.querySelector("#Cleric").setAttribute("href","cardslibrary.html?class=Cleric");
-
-
-
-    
-
+ 
 
     // put clone in the place
     const GridWithsongs = document.querySelector("#CardsSection");
     GridWithsongs.appendChild(cloneOfTemplate);
+
+
+
 };
+
+
+// class filter
+document.querySelector("#Swordsman").setAttribute("href","cardslibrary.html?class=Swordsman");
+document.querySelector("#Rogue").setAttribute("href","cardslibrary.html?class=Rogue");
+document.querySelector("#Wizard").setAttribute("href","cardslibrary.html?class=Wizard");
+document.querySelector("#Shaman").setAttribute("href","cardslibrary.html?class=Shaman");
+document.querySelector("#Warlock").setAttribute("href","cardslibrary.html?class=Warlock");
+document.querySelector("#Cleric").setAttribute("href","cardslibrary.html?class=Cleric");
+
+
+
 
 if (ClassSelector == "Swordsman") {
     document.querySelector("#Swordsmanimg").src = "../assets/CardsLibrary/Classes/swordsmanselected.png";
@@ -88,6 +98,34 @@ if (ClassSelector == "Swordsman") {
 
 
 
+
+
+
+
+
+
+
+
+
+// -------------------------------------cards open animation---------------------------------
+  
+
+
+
+// cloneOfTemplate.querySelector(".level1").addEventListener("click", opencards)
+
+
+// function opencards() {
+
+  
+//     console.log("open");
+    
+
+//     cloneOfTemplate.querySelector(".level3").classList.toggle("level3move");
+//     cloneOfTemplate.querySelector(".level2").classList.toggle("level2move");
+//     cloneOfTemplate.querySelector(".level1").classList.toggle("level1move");   
+
+// }
 
 
 
