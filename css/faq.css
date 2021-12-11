@@ -71,7 +71,7 @@ h1 {
 
 
 
-#devider {
+.devider {
   margin-top: 2vw;
   margin-bottom: 1.5vw;
 height: 0.2vw;
@@ -203,15 +203,10 @@ margin-bottom: 0.5vw;
 
 /* -----------------------------------------MOBILE VIEW-------------------------------------------------------- */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 
 
 
-
-
-
-  
-  
   
 
 
@@ -221,7 +216,7 @@ margin-bottom: 0.5vw;
     font-size: 5vw;
   }
   
-  #devider {
+  .devider {
     margin-top: 3vw;
     margin-bottom: 2.5vw;
   }
