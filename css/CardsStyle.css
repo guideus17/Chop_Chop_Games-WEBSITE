@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+main {
+  height: 55vw;
+}
+
 body {
   background-image: url("../assets/CardsLibrary/backgound.png");
   background-size: 100%;
@@ -115,30 +119,13 @@ h1 {
 cursor: pointer;
 }
 
-.level1 {
+.level1, .level2, .level3 {
     width: 10vw;
     position: absolute;
     transition: 0.2s;
     border-radius: 0.2vw;
      box-shadow: 0.3vw 0.3vw 0.5vw #00000013;
 }
-
-.level2 {
-  width: 10vw;
-  position: absolute;
-  transition: 0.2s;
-  border-radius: 0.2vw;
-   box-shadow: 0.3vw 0.3vw 0.5vw #00000013;
-}
-
-.level3 {
-  width: 10vw;
-  position: absolute;
-  transition: 0.2s;
-  border-radius: 0.2vw;
-   box-shadow: 0.3vw 0.3vw 0.5vw #00000013;
-}
-
 
 
 
@@ -270,7 +257,9 @@ margin-bottom: 0.5vw;
 @media only screen and (max-width: 800px) {
 
 
-
+  main {
+    height: 100vw;
+  }
 
   #CardsSection {
       gap: 5vw;
@@ -280,35 +269,27 @@ margin-bottom: 0.5vw;
   
   .CardsWrapper{
     width: 15vw;
-    height: 14vw;
+    height: 21vw;
   }
   
-  .level1 {
+  .level1, .level2, .level3 {
       width: 15vw;
       border-radius: 0.2vw;
   }
   
-  .level2 {
-    width: 15vw;
-    border-radius: 0.2vw;
-  }
-  
-  .level3 {
-    width: 15vw;
-    border-radius: 0.2vw;
-  }
+ 
   
 
 
 
   
-.CardsWrapper:active > .level2{
+.CardsWrapper:hover > .level2{
   transform: scale(1.1);
   z-index: 10;
   box-shadow: 0.3vw 0.3vw 0.5vw #00000048;
 }
 
-.CardsWrapper:active > .level1 {
+.CardsWrapper:hover > .level1 {
   transform: rotate(-8deg) scale(1.1);
   margin-left: -17vw;
     margin-top: 1.3vw;
@@ -316,7 +297,7 @@ margin-bottom: 0.5vw;
   box-shadow: 0.3vw 0.3vw 0.5vw #00000048;
 }
 
-.CardsWrapper:active > .level3 {
+.CardsWrapper:hover > .level3 {
   transform: rotate(8deg) scale(1.1);
   margin-left: 17vw;
   margin-top: 1.3vw;
@@ -431,33 +412,25 @@ margin-bottom: 0.5vw;
   
   .CardsWrapper{
     width: 22vw;
-    height: 14vw;
+    height: 31vw;
   }
   
-  .level1 {
+  .level1, .level2, .level3 {
       width: 22vw;
       border-radius: 0.2vw;
   }
   
-  .level2 {
-    width: 22vw;
-    border-radius: 0.2vw;
-  }
-  
-  .level3 {
-    width: 22vw;
-    border-radius: 0.2vw;
-  }
+
   
 
 
-  .CardsWrapper:active > .level2{
+  .CardsWrapper:hover > .level2{
     transform: scale(1.1);
     z-index: 10;
     box-shadow: 0.3vw 0.3vw 0.5vw #00000048;
   }
   
-  .CardsWrapper:active > .level1 {
+  .CardsWrapper:hover > .level1 {
     transform: rotate(-8deg) scale(1.1);
     margin-left: -23vw;
       margin-top: 1.3vw;
@@ -465,7 +438,7 @@ margin-bottom: 0.5vw;
     box-shadow: 0.3vw 0.3vw 0.5vw #00000048;
   }
   
-  .CardsWrapper:active > .level3 {
+  .CardsWrapper:hover > .level3 {
     transform: rotate(8deg) scale(1.1);
     margin-left: 23vw;
     margin-top: 1.3vw;
