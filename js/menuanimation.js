@@ -4,7 +4,6 @@ document.querySelector("#HamburguerSymbol").addEventListener("click", menuanimat
 
 
 
-
 function menuanimation() {
 
     console.log("open");
@@ -14,6 +13,5 @@ function menuanimation() {
     document.querySelector("#MenuCards").classList.toggle("ShowMenu");
     document.querySelector("#MenuDevlog").classList.toggle("ShowMenu");
     document.querySelector("#MenuFAQ").classList.toggle("ShowMenu");
-     
 
 }
