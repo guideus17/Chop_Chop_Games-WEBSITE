@@ -17,7 +17,7 @@
   /* -----------------------------------------------------MENU SECTION------------------------------------------------------ */
   
   #MenuFAQ {
-    background-color: #CE8E1E;
+    background-color: #AE5CC5;
   }
   
   #MenuHome p {
@@ -29,11 +29,11 @@
   }
   
   #MenuDevlog p {
-    color: #AE5CC5;
+    color: #ffffff;
   }
   
   #MenuFAQ p {
-    color: white;
+    color: #CE8E1E;
   }
   
   
