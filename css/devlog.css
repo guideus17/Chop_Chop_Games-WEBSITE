@@ -135,7 +135,7 @@ footer {
   h2 {
     font-family: bellbold;
     font-size: 3vw;
-    color: #CE8E1E;
+    color: #D07EAF;
   }
   
   #devlogwrapper p {
@@ -164,6 +164,33 @@ footer {
     
   
     
+  .devider {
+    margin-top: 3vw;
+    margin-bottom: 2.5vw;
+  }
+
+
+
+
+  
+  #devlogwrapper {
+    margin-top: 8vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  
+  h2 {
+    font-family: bellbold;
+    font-size: 5vw;
+    color: #D07EAF;
+  }
+  
+  #devlogwrapper p {
+  font-family: liberation;
+  font-size: 2vw;
+  margin-top: 0.5vw;
+  }
+  
   
   
   
